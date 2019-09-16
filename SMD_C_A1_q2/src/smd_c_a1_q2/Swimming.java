@@ -4,16 +4,18 @@
  * and open the template in the editor.
  */
 package smd_c_a1_q2;
-import smd_c_a1.*;
-
 
 /**
  *
  * @author M Umair Malik
  */
-public class FitnessCenter {
-    int openingTime;
-    int closingTime;
-    boolean gearReq;
-       
-}
+public class Swimming extends FitnessCenter
+{
+    public Swimming()
+    {
+        openingTime=10;
+        closingTime=17;
+        gearReq=true;
+    }
+    
+} 
